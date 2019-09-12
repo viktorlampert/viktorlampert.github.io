@@ -107,10 +107,12 @@ body {
 .imageClass1:hover{
     background-color:#d64161;
     transition:1s;
+    cursor:pointer;
 }
 .imageClass2:hover {
     background-color: #d64161;
     transition: 1s;
+    cursor:pointer;
 }
 .imageClass3:hover {
     background-color: #d64161;
@@ -120,9 +122,36 @@ body {
 .imageClass4:hover{
     background-color:#d64161;
     transition:1s;
+    cursor:pointer;
 }
 
-.credits{
-    position:absolute;
-    bottom:1px;
+.skills ul {
+    list-style:none;
+    background-size: 100% 100%;
+    text-align:center;
+    padding:0;
+    margin:0px;
+}
+.skills li {
+    display:inline-block;
+    width:150px;
+    height:150px;
+    backround-color:white;
+    margin:20px;
+    font-family:sans-serif;
+}
+.projects ul {
+    list-style:none;
+    background-size: 100% 100%;
+    text-align:center;
+    padding:0;
+    margin:0px;
+}
+.projects li {
+    display:inline-block;
+    width:150px;
+    height:150px;
+    backround-color:white;
+    margin:20px;
+    font-family:sans-serif;
 }
