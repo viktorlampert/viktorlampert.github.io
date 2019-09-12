@@ -1,3 +1,128 @@
 body {
-    background-color:slateblue;
+    margin:0;
+    padding:0;
+    background-color:#bccad6;
+}
+.navbar ul{
+    list-style:none;
+    background:url("icons/Yellowstone.gif");
+    background-size: 1500px 1000px;
+    text-align:center;
+    padding:0;
+    margin:0px;
+
+
+}
+
+.navbar li{
+    display:inline-block;
+    width:150px;
+    height:150px;
+    backround-color:white;
+    margin:20px;
+    font-family:sans-serif;
+
+
+}
+
+
+.imageClass1 {
+
+    margin:auto;
+    vertical-align:bottom;
+    text-align:center;
+    background-color:transparent;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    width:100px;
+    height:100px;
+    -moz-border-radius: 1em;
+    border-radius:50%;
+    border-color:black;
+    background-image:url("icons/003-hammer.png");
+
+
+}
+.imageClass2 {
+
+    margin:auto;
+    background-color:transparent;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    width:100px;
+    height:100px;
+    -moz-border-radius: 1em;
+    border-radius:50%;
+    background-image:url("icons/002-file.png");
+
+
+}
+.imageClass3 {
+
+    margin:auto;
+    background-color:transparent;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    width:100px;
+    height:100px;
+    -moz-border-radius: 1em;
+    border-radius:50%;
+    background-image:url("icons/001-folder.png");
+
+
+}
+.imageClass4 {
+
+
+    margin:auto;
+    horiz-align: center;
+    background-color:transparent;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    width:100px;
+    height:100px;
+    -moz-border-radius: 1em;
+    border-radius:50%;
+    background-image:url("icons/004-phone-contact.png");
+
+
+}
+
+.navbar img{
+    text-decoration:none;
+    color:black;
+    height:100px;
+    width:100px;
+    display:block;
+    font-size:18px;
+    background-size:cover;
+    object-fit: cover;
+
+
+}
+.imageClass1:hover{
+    background-color:#d64161;
+    transition:1s;
+}
+.imageClass2:hover {
+    background-color: #d64161;
+    transition: 1s;
+}
+.imageClass3:hover {
+    background-color: #d64161;
+    transition: 1s;
+    cursor:pointer;
+}
+.imageClass4:hover{
+    background-color:#d64161;
+    transition:1s;
+}
+
+.credits{
+    position:absolute;
+    bottom:1px;
 }
