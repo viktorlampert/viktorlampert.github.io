@@ -1,20 +1,24 @@
 body {
     margin:0;
     padding:0;
-    background-color:#bccad6;
+    background-color:white;
 }
-.navbar ul{
+#navbar ul{
     list-style:none;
-    background:url("icons/Yellowstone.gif");
-    background-size: 100% 100%;
+    background:url("icons/city.jpg");
+    background-size: cover;
+    background-position:center center;
+    width:100vw;
+    height:60vh;
     text-align:center;
+    justify-content:center;
     padding:0;
     margin:0px;
 
 
 }
 
-.navbar li{
+#navbar li{
     display:inline-block;
     width:150px;
     height:150px;
@@ -26,7 +30,7 @@ body {
 }
 
 
-.imageClass1 {
+#imageClass1 {
 
     margin:auto;
     vertical-align:bottom;
@@ -44,7 +48,7 @@ body {
 
 
 }
-.imageClass2 {
+#imageClass2 {
 
     margin:auto;
     background-color:transparent;
@@ -59,7 +63,7 @@ body {
 
 
 }
-.imageClass3 {
+#imageClass3 {
 
     margin:auto;
     background-color:transparent;
@@ -74,7 +78,7 @@ body {
 
 
 }
-.imageClass4 {
+#imageClass4 {
 
 
     margin:auto;
@@ -92,7 +96,7 @@ body {
 
 }
 
-.navbar img{
+#navbar img{
     text-decoration:none;
     color:black;
     height:100px;
@@ -104,54 +108,108 @@ body {
 
 
 }
-.imageClass1:hover{
+#imageClass1:hover{
     background-color:#d64161;
     transition:1s;
     cursor:pointer;
 }
-.imageClass2:hover {
+#imageClass2:hover {
     background-color: #d64161;
     transition: 1s;
     cursor:pointer;
 }
-.imageClass3:hover {
+#imageClass3:hover {
     background-color: #d64161;
     transition: 1s;
     cursor:pointer;
 }
-.imageClass4:hover{
+#imageClass4:hover{
     background-color:#d64161;
     transition:1s;
     cursor:pointer;
 }
 
-.skills ul {
+#skills ul {
+    width:100vw;
+    height:60vh;
+    justify-content:center;
     list-style:none;
-    background-size: 100% 100%;
+    background-size: cover;
+    text-align:center;
+    padding:0;
+    margin:0;
+    background-image:url("icons/skills.jpg")
+}
+#skills li {
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin:10px;
+    font-family:sans-serif;
+}
+#projects ul {
+    list-style:none;
+    justify-content:center;
+    width:100vw;
+    height:60vh;
+    background-position:center center;
+    background-image:url("icons/projects.jpg");
+    background-size: cover;
     text-align:center;
     padding:0;
     margin:0px;
 }
-.skills li {
+#projects li {
     display:inline-block;
-    width:150px;
-    height:150px;
-    backround-color:white;
-    margin:20px;
+    width:200px;
+    height:200px;
+    margin:10px;
     font-family:sans-serif;
 }
-.projects ul {
+
+#contactDiv ul{
     list-style:none;
-    background-size: 100% 100%;
+    justify-content:center;
+    width:100vw;
+    height:100vh;
+    background-position:center center;
+    background-image:url("icons/contact.jpg");
+    background-size: cover;
     text-align:center;
     padding:0;
     margin:0px;
 }
-.projects li {
+#contactDiv li{
     display:inline-block;
+    width:200px;
+    height:200px;
+    margin:10px;
+    font-family:sans-serif;
+}
+
+#LiveWay{
+    margin:auto;
+    horiz-align: center;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:75%;
     width:150px;
     height:150px;
-    backround-color:white;
-    margin:20px;
-    font-family:sans-serif;
+    background-image:url("icons/LiveWay.png");
+}
+#LiveWay:hover{
+    cursor:pointer;
+}
+#NBAStatTracker{
+    margin:auto;
+    horiz-align: center;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:83%;
+    width:150px;
+    height:150px;
+    background-image:url("icons/nba-logo.jpg");
+}
+#NBAStatTracker:hover{
+    cursor:pointer;
 }
