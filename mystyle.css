@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-position:center center;
     width:100vw;
-    height:60vh;
+    height:100vh;
     text-align:center;
     justify-content:center;
     padding:0;
@@ -131,7 +131,7 @@ body {
 
 #skills ul {
     width:100vw;
-    height:60vh;
+    height:100vh;
     justify-content:center;
     list-style:none;
     background-size: cover;
@@ -151,7 +151,7 @@ body {
     list-style:none;
     justify-content:center;
     width:100vw;
-    height:60vh;
+    height:100vh;
     background-position:center center;
     background-image:url("icons/projects.jpg");
     background-size: cover;
