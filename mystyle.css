@@ -7,6 +7,7 @@ body {
     list-style:none;
     background:url("icons/city.jpg");
     background-size: cover;
+    background-attachment: fixed;
     background-position:center center;
     width:100vw;
     height:100vh;
@@ -133,6 +134,8 @@ body {
     width:100vw;
     height:100vh;
     justify-content:center;
+    background-position: center center;
+    background-attachment: fixed;
     list-style:none;
     background-size: cover;
     text-align:center;
@@ -152,7 +155,8 @@ body {
     justify-content:center;
     width:100vw;
     height:100vh;
-    background-position: left;
+    background-position: center center;
+    background-attachment: fixed;
     background-image:url("icons/projects.jpg");
     background-size: cover;
     text-align:center;
@@ -172,6 +176,7 @@ body {
     justify-content:center;
     width:100vw;
     height:100vh;
+    background-attachment: fixed;
     background-position:center center;
     background-image:url("icons/contact.jpg");
     background-size: cover;
