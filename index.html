@@ -1,58 +1,40 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="viktorlampert.github.io/mystyle.css">
     <meta charset="UTF-8">
     <title>Welcome To My Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
+<div id="contactDiv">
+    <ul>
+        <li>
+            <h1>Viktor Lampert</h1>
+        </li>
+    </ul>
+</div>
 <div id="navbar">
     <ul>
-        <li><div onclick="skills()" id="imageClass1" href="#skills">
-        </div>
-            <p class="contact">Skills</p>
-        </li>
-        <li><div onclick="projects()" id="imageClass2" href="#">
+        <li><div onclick="projects()" id="imageClass1">
         </div>
             <p class="contact">Projects</p>
         </li>
-        <li><div onclick="gitHub()" id="imageClass3">
+        <li><div onclick="gitHub()" id="imageClass2">
 
         </div>
             <p class="contact">Github</p>
         </li>
         <li>
-            <div onclick="contact()" id="imageClass4" href="#">
+            <div onclick="linkedIn()" id="imageClass3">
             </div>
-            <p class="contact">Contact</p>
-        </li>
-    </ul>
-</div>
-<div id="skills" >
-    <ul>
-        <li>
-            <div id="FrontEndDiv">
-                <h3>Front End</h3>
-                <p>HTML/CSS</p>
-                <p>Javascript</p>
-                <p>&ensp;</p>
-            </div>
+            <p class="contact">Linkedin</p>
         </li>
         <li>
-            <div id="BackEndDiv">
-                <h3>Back End</h3>
-                <p>Python</p>
-                <p>Java</p>
-                <p>C#</p>
+            <div onclick="sendMail()" id="imageClass4">
             </div>
-        </li>
-        <li>
-            <div id="OthersDiv">
-                <h3>Other Skills</h3>
-                <p>MySQL</p>
-                <p>JSON</p>
-                <p>&ensp;</p>
-            </div>
+            <p class="contact">Mail</p>
         </li>
     </ul>
 </div>
@@ -60,48 +42,31 @@
     <ul>
         <li>
             <div id="NBADiv">
-                <h3>NBA Stat Tracker</h3>
                 <div onclick="NBAStatTracker()" id="NBAStatTracker"> </div>
             </div>
+            <h3>NBA Stat Tracker</h3>
         </li>
         <li>
             <div id="LiveWayDiv">
-                <h3>LiveWay</h3>
                 <div id="LiveWay"> </div>
             </div>
+            <h3>LiveWay</h3>
         </li>
     </ul>
-</div>
-<div id="contactDiv">
-    <ul>
-        <li>
-            <h1>Contact Information:</h1>
-            Email: lampertv@sheridancollege.ca
-            GitHub: github.com/viktorlampert
-            LinkedIN: linkedIN.com/viktorlampert
-
-            <a href="#navbar">Back to top!</a>
-        </li>
-    </ul>
-</div>
-<div id="credits">Icons made by
-    <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from
-    <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a>
 </div>
 
 <script>
     function gitHub() {
         window.open('https://GitHub.com/viktorlampert','mywindow');
     }
-    function skills(){
-        window.location.href="#skills";
-
-    }
     function projects(){
         window.location.href="#projects";
     }
-    function contact(){
-        window.location.href="#contactDiv";
+    function linkedIn(){
+        window.open("https://www.linkedin.com/in/viktor-lampert-98bb3a193/");
+    }
+    function sendMail(){
+        location.href="mailto:lampertv@sheridancollege.ca";
     }
     function NBAStatTracker(){
         window.open('https://github.com/viktorlampert/NBAStatTracker','mywindow');

@@ -1,14 +1,13 @@
 body {
     margin:0;
     padding:0;
-    background-color:white;
+    background:url("icons/Dark.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
 }
 #navbar ul{
     list-style:none;
-    background:url("icons/city.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:center center;
     width:100vw;
     height:100vh;
     text-align:center;
@@ -23,9 +22,10 @@ body {
     display:inline-block;
     width:150px;
     height:150px;
+    color:white;
     backround-color:white;
     margin:20px;
-    font-family:sans-serif;
+    font-family:Geneva;
 
 
 }
@@ -38,6 +38,7 @@ body {
     text-align:center;
     background-color:transparent;
     background-position: center;
+    background-image:url("icons/iconmonstr-folder-1-240.png");
     background-repeat:no-repeat;
     background-size:50%;
     width:100px;
@@ -45,22 +46,20 @@ body {
     -moz-border-radius: 1em;
     border-radius:50%;
     border-color:black;
-    background-image:url("icons/003-hammer.png");
 
 
 }
 #imageClass2 {
-
     margin:auto;
     background-color:transparent;
     background-position: center;
     background-repeat:no-repeat;
+    background-image:url("icons/iconmonstr-github-1-240.png");
     background-size:50%;
     width:100px;
     height:100px;
     -moz-border-radius: 1em;
     border-radius:50%;
-    background-image:url("icons/002-file.png");
 
 
 }
@@ -71,11 +70,11 @@ body {
     background-position: center;
     background-repeat:no-repeat;
     background-size:50%;
+    background-image:url("icons/iconmonstr-linkedin-1-240.png");
     width:100px;
     height:100px;
     -moz-border-radius: 1em;
     border-radius:50%;
-    background-image:url("icons/001-folder.png");
 
 
 }
@@ -87,12 +86,12 @@ body {
     background-color:transparent;
     background-position: center;
     background-repeat:no-repeat;
+    background-image:url("icons/iconmonstr-email-3-240.png");
     background-size:50%;
     width:100px;
     height:100px;
     -moz-border-radius: 1em;
     border-radius:50%;
-    background-image:url("icons/004-phone-contact.png");
 
 
 }
@@ -110,55 +109,31 @@ body {
 
 }
 #imageClass1:hover{
-    background-color:#d64161;
+    background-color:white;
     transition:1s;
     cursor:pointer;
 }
 #imageClass2:hover {
-    background-color: #d64161;
+    background-color:white;
     transition: 1s;
     cursor:pointer;
 }
 #imageClass3:hover {
-    background-color: #d64161;
+    background-color:white;
     transition: 1s;
     cursor:pointer;
 }
 #imageClass4:hover{
-    background-color:#d64161;
+    background-color:white;
     transition:1s;
     cursor:pointer;
 }
 
-#skills ul {
-    width:100vw;
-    height:100vh;
-    justify-content:center;
-    background-position: center center;
-    background-attachment: fixed;
-    list-style:none;
-    background-size: cover;
-    text-align:center;
-    padding:0;
-    margin:0;
-    background-image:url("icons/skills.jpg")
-}
-#skills li {
-    display:inline-block;
-    width:200px;
-    height:200px;
-    margin:10px;
-    font-family:sans-serif;
-}
 #projects ul {
     list-style:none;
     justify-content:center;
     width:100vw;
     height:100vh;
-    background-position: center center;
-    background-attachment: fixed;
-    background-image:url("icons/projects.jpg");
-    background-size: cover;
     text-align:center;
     padding:0;
     margin:0px;
@@ -167,29 +142,30 @@ body {
     display:inline-block;
     width:200px;
     height:200px;
+    color:white;
     margin:10px;
-    font-family:sans-serif;
+    font-family:Geneva;
 }
 
 #contactDiv ul{
     list-style:none;
     justify-content:center;
     width:100vw;
-    height:100vh;
-    background-attachment: fixed;
-    background-position:center center;
-    background-image:url("icons/contact.jpg");
-    background-size: cover;
+    height:20vh;
     text-align:center;
     padding:0;
     margin:0px;
 }
 #contactDiv li{
     display:inline-block;
-    width:200px;
-    height:200px;
+    width:100vw;
+    height:50vh;
+    color:white;
     margin:10px;
-    font-family:sans-serif;
+    font-family:Geneva;
+}
+#contactDiv h1 {
+    font-size:5vw;
 }
 
 #LiveWay{
