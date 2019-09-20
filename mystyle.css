@@ -4,6 +4,7 @@ body {
     width:100vw;
     height:100vh;
     background:url("icons/Dark.jpg");
+    image-rendering: optimizeQuality;
     background-size: cover;
     background-attachment: fixed;
     background-position:center;
@@ -27,7 +28,7 @@ body {
     color:white;
     backround-color:white;
     margin:20px;
-    font-family:Geneva;
+    font-family:Arial;
 
 
 }
@@ -146,7 +147,7 @@ body {
     height:200px;
     color:white;
     margin:10px;
-    font-family:Geneva;
+    font-family:Arial;
 }
 
 #contactDiv ul{
@@ -164,7 +165,7 @@ body {
     height:50vh;
     color:white;
     margin:10px;
-    font-family:Geneva;
+    font-family:Arial;
 }
 #contactDiv h1 {
     font-size:5vw;
