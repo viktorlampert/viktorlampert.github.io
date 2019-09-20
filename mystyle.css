@@ -3,8 +3,7 @@ body {
     padding:0;
     width:100vw;
     height:100vh;
-    background:url("icons/Dark.jpg");
-    image-rendering: optimizeQuality;
+    background:url("icons/Mhorn.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position:center;
