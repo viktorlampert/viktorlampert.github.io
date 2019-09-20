@@ -135,17 +135,15 @@ body {
     list-style:none;
     justify-content:center;
     width:100vw;
-    height:100vh;
+    height:80vh;
     text-align:center;
     padding:0;
-    margin:0px;
 }
 #projects li {
     display:inline-block;
     width:200px;
     height:200px;
     color:white;
-    margin:10px;
     font-family:Arial;
 }
 
@@ -156,28 +154,29 @@ body {
     height:20vh;
     text-align:center;
     padding:0;
-    margin:0px;
+    margin-bottom:20px;
 }
 #contactDiv li{
     display:inline-block;
     width:100vw;
     height:50vh;
     color:white;
-    margin:10px;
+    margin:0;
     font-family:Arial;
 }
 #contactDiv h1 {
     font-size:5vw;
+    margin-bottom:0;
 }
 
 #LiveWay{
     margin:auto;
     horiz-align: center;
-    background-position: center;
     background-repeat:no-repeat;
-    background-size:75%;
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
+    background-position: center;
+    background-size:     cover;
     background-image:url("icons/LiveWay.png");
 }
 #LiveWay:hover{
@@ -186,13 +185,26 @@ body {
 #NBAStatTracker{
     margin:auto;
     horiz-align: center;
-    background-position: center;
     background-repeat:no-repeat;
-    background-size:83%;
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
+    background-position: center;
+    background-size:     cover;
     background-image:url("icons/nba-logo.jpg");
 }
 #NBAStatTracker:hover{
+    cursor:pointer;
+}
+#ElementShowdown{
+    margin:auto;
+    horiz-align: center;
+    background-repeat:no-repeat;
+    width:100px;
+    height:100px;
+    background-position: center;
+    background-size:     cover;
+    background-image:url("icons/ElementalShowdown.jpg");
+}
+#ElementShowdown:hover{
     cursor:pointer;
 }
